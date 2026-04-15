@@ -7,58 +7,21 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Hồ sơ năng lực (CV)
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Học vấn
+* **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
+  * Chuyên ngành: IoT
+  * Thời gian: 2023 - Hiện tại
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+### Kỹ năng chuyên môn
+| Kỹ năng       | Công cụ / Ngôn ngữ                |
+| :---          |           :---                    |
+| **Lập trình** | C/C++, Python, Arduino Sketch     |
+| **Phần cứng** | STM32, ESP32, Cảm biến LM35       |
+| **Công cụ**   | Git, GitHub, Proteus, VS Code     |
+| **Ngoại ngữ** | Tiếng Anh kỹ thuật                |
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Dự án tiêu biểu
+* **Hệ thống giám sát nhiệt độ LM35:** Thiết kế mạch mô phỏng trên Proteus, lập trình Arduino đọc dữ liệu và gửi lên máy tính hiển thị đồ thị qua C#.
+* **Quản lý mã nguồn:** Thực hiện quy trình Git Flow (Branching, Merging, Pull Request) trên GitHub.
